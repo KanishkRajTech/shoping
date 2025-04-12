@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import CartItem from "../components/CartItem";
+import CartItem from "../components/Cartitem";
 
 const Cart = () => {
   const { cart } = useSelector((state) => state);
